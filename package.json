@@ -1,0 +1,21 @@
+{
+    "name": "botanical-theme",
+    "displayName": "Botanical Theme",
+    "description": "Botanical color scheme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Botanical Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Botanical Theme-color-theme.json"
+            }
+        ]
+    }
+}
