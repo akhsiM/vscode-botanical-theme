@@ -2,8 +2,8 @@
 	"name": "Botanical Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#262626",
-		"editor.foreground": "#e2e2e2",
+		"editor.background": "#232323",
+		"editor.foreground": "#d4d4d4",
 		"activityBarBadge.background": "#6e9683",
 		"sideBarTitle.foreground": "#6e9683"
 	},
@@ -12,7 +12,8 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -22,11 +23,12 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				"variable.other.readwrite.js",
+				"string constant.other.placeholder",
+				"string.template.js",
 			],
 			"settings": {
-				"foreground": "#e2e2e2"
+				"foreground": "#acc2ae"
 			}
 		},
 		{
@@ -49,9 +51,8 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
@@ -60,9 +61,17 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Keyword Control",
 			"scope": [
 				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#c4b593",
+			}
+		},
+		{
+			"name": "Keyword, Operator, Misc",
+			"scope": [
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -72,11 +81,12 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
+				"keyword",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#7db399"
+				"foreground": "#7CBA99"
 			}
 		},
 		{
@@ -100,7 +110,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#6fa699"
+				"foreground": "#82ad9d"
 			}
 		},
 		{
@@ -109,7 +119,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#d4d6bf"
 			}
 		},
 		{
@@ -135,7 +145,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#edd48e"
+				"foreground": "#6aa88a"
 			}
 		},
 		{
@@ -147,17 +157,17 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"string.template.js",
 			],
 			"settings": {
-				"foreground": "#e4f0e7"
+				"foreground": "#d9d7bf"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
-				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
@@ -175,7 +185,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#71c78b"
 			}
 		},
 		{
@@ -436,7 +446,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#e2e2e2"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -574,7 +584,7 @@
 				"markup.raw.block.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#000050"
 			}
 		},
 		{
@@ -594,7 +604,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#e2e2e2"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -622,8 +632,8 @@
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#e2e2e2"
+				"foreground": "#d4d4d4"
 			}
-		}
+		},
 	]
 }
