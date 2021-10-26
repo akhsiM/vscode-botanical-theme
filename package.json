@@ -1,7 +1,9 @@
 {
     "name": "botanical-theme",
+    "publisher": "MishkaNguyen",
     "displayName": "Botanical Theme",
     "description": "Botanical color scheme for VS Code",
+    "repository": "https://github.com/akhsiM/vscode-botanical-theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.61.0"
